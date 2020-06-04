@@ -10,6 +10,17 @@ User drives by a popular chain fast food restaurant with a drive thru. (e.g., We
 3. User orders, pays via app, and rolls up into drive-thru.
 4. The order and payment is sent to the restaurant and user can confirm order number to restaurant.
 
+### Mockup
+<img src="./readmeImages/Mockup.png" width="75%">
+
+#### Requirements
+- Account that stores username/password
+- Stores payment methods
+- Past orders archive/confirmed orders
+- Page that contains map with nearby restaurants
+  - Through here, user can select a restaurant that will open menu/go through payment
+- Logout
+
 <hr>
   
 ## Why this app is needed
@@ -29,7 +40,7 @@ I also would like to streamline the online ordering of fast food to one app, wit
 <hr>
 
 ## How to use (for me because I'm forgetful)
-- Go into project folder `cd .\drive-thru`
+- Go into project folder `cd drive-thru/`
 - Run `ionic serve` within the app directory to see app in browser.
   > **Note:** The project will be on `http://localhost:8100/`, not on `http://10.0.0.29/` or what have you.
 - Run `ionic capacitor` to add a native iOS or Android project using Capacitor
