@@ -12,7 +12,7 @@ import {
 
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp } from 'ionicons/icons';
+import { mapOutline, mapSharp, heartOutline, heartSharp, personOutline, personSharp, walletOutline, walletSharp, logOutOutline, logOutSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -26,14 +26,20 @@ const appPages: AppPage[] = [
   {
     title: 'Account Info',
     url: '/page/Inbox',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp
+    iosIcon: personOutline,
+    mdIcon: personSharp
+  },
+  {
+    title: 'Map',
+    url: '/page/Archived',
+    iosIcon: mapOutline,
+    mdIcon: mapSharp
   },
   {
     title: 'Payment Methods',
     url: '/page/Outbox',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp
+    iosIcon: walletOutline,
+    mdIcon: walletSharp
   },
   {
     title: 'Past Orders',
@@ -42,16 +48,10 @@ const appPages: AppPage[] = [
     mdIcon: heartSharp
   },
   {
-    title: 'Map',
-    url: '/page/Archived',
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp
-  },
-  {
     title: 'Log Out', // Do we even need this?
     url: '/page/Trash',
-    iosIcon: trashOutline,
-    mdIcon: trashSharp
+    iosIcon: logOutOutline,
+    mdIcon: logOutSharp
   }
 ];
 
