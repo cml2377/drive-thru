@@ -21,6 +21,8 @@ User drives by a popular chain fast food restaurant with a drive thru. (e.g., We
   - Through here, user can select a restaurant that will open menu/go through payment
 - Logout
 
+<img src="./readmeImages/DT-flowchart.png" width="75%">
+
 <hr>
   
 ## Why this app is needed
